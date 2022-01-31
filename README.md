@@ -31,13 +31,14 @@ Please also note that this analysis was conducted twice due to potential academi
 - Software: Python 3.7.6 through Jupyter Notebook. 
 
 # Analysis
+Since there was a potential academic dishonesty detected for ninth grades at Thomas High School as the grades looked altered, the analysis had to be redone with replacing the data with missing values. 
 
-Since there was a potential academic dishonesty detected for ninth grades at Thomas High School as the grades looked altered, the analysis had to be redone twice. 
 [PyCitySchools.ipynb](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/PyCitySchools.ipynb) shows the analysis including all student data. 
 [PyCitySchools_Challenge.ipynb](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/PyCitySchools_Challenge.ipynb) shows the analysis after omitting possibly altered data. 
 
+In the [Resources](https://github.com/Aigerim-Zh/School-District-Analysis/tree/main/Resources) folder of this repository, you can find the images of summaries before and after the replacement. 
+
 ## 1. How is the district summary affected?
-In the Resources folder of this repository, you can find images for before and after tables. 
 
 After replacing the possibly altered data with NaN values, the metrics did not changed significantly for the whole district:
 - The overall passing percentage for the whole district stayed 65% (as a whole number)
@@ -57,11 +58,8 @@ The analysis was run for each school. In the second analysis, only 10th to 12th 
 ## 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 Despite replacing the ninth grade data, Thomas High School remained the second high performing school. 
 
-![**Top 5 Schools Before]()
-
-![**Top 5 Schools After]()
-
 ## 4. How are the scores affected by grades?
+- The average math and reading scores stayed roughly the same for each grade level before and after. 
 
 ## 5. How are the scores affected by school spending?
 
