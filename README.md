@@ -56,7 +56,7 @@ After replacing the possibly altered data with NaN values, the metrics did not c
 The analysis was run for each school. In the second analysis, only 10th to 12th grade data was considered for Thomas High School. 
 - The overall passing percentage for Thomas High School for math and reading assessments fell from 90.95% to 90.63%
 - The average math score decreased from 83.42 to 83.35
-- The average reading score increased from 83.85 to 83.9
+- The average reading score _increased_ from 83.85 to 83.9
 - % Passing Math fell from 93.27% to 92.19% 
 - % Passing Reading fell from 97.3% to 97.02%
 **School Summary Before**
@@ -99,7 +99,7 @@ Despite replacing the ninth grade data, Thomas High School remained the second h
 The metrics by school size were slightly affected for **the medium-sized schools**:
 - The overall passing percentage for math and reading assessments fell from 90.62% to 90.55%
 - The average math score decreased from 83.37 to 83.36
-- The average reading score increased from 83.86 to 83.87
+- The average reading score _increased_ from 83.86 to 83.87
 - % Passing Math fell from 93.6% to 92.58% 
 - % Passing Reading stayed fell from 96.8% to 96.7%
 **Summary by School Size Score Before**
@@ -107,15 +107,22 @@ The metrics by school size were slightly affected for **the medium-sized schools
 
 **Summary by School Size After**
 ![]()
+
 ## 7. How are the scores affected by school type?
-The only type of school that was slightly affected is the Charter type schools since Thomas High School is a Charter type school. 
+The only type of school that was slightly affected is **the Charter type schools** since Thomas High School is a Charter type school. 
+- The overall passing percentage for math and reading assessments fell from 90.43% to 90.39%
+- The average math score decreased from 83.474 to 83.466
+- The average reading score _increased_ from 83.896 to 83.8
+- % Passing Math fell from 93.62% to 92.61% 
+- % Passing Reading stayed fell from 96.59% to 96.55%
+
 **Summary by School Type Score Before**
 ![]()
 
 **Summary by School Type After**
 ![]()
 # Summary: 
-In general, the analysis results were not affected significantly. The small changes that happened included the following:
+In general, the analysis results were not affected significantly. The changes that happened included a slight decrease in the metrics:
 1. District Summary - all the metrics slightly decreased between 0.1 to 0.5 percentage points.
 2. School Summary - all the metrics slightly decreased by less than 1 percentage point except for the average reading score, which incerased by 0.05 value points.
 3. Top Five Schools Summary - despite excluding the data for the 9nth graders, Thomas High School remained the second high performing school.
