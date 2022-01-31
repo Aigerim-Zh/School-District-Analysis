@@ -32,12 +32,11 @@ Please also note that this analysis was conducted twice due to potential academi
 
 # Analysis
 
-
 Since there was a potential academic dishonesty detected for ninth grades at Thomas High School as the grades looked altered, the analysis had to be redone twice. 
 [PyCitySchools.ipynb](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/PyCitySchools.ipynb) shows the analysis including all student data. 
 [PyCitySchools_Challenge.ipynb](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/PyCitySchools_Challenge.ipynb) shows the analysis after omitting possibly altered data. 
 
-## How is the district summary affected?
+## 1. How is the district summary affected?
 In the Resources folder of this repository, you can find images for before and after tables. 
 
 After replacing the possibly altered data with NaN values, the metrics did not changed significantly for the whole district:
@@ -47,7 +46,7 @@ After replacing the possibly altered data with NaN values, the metrics did not c
 - % Passing Math stayed 75%
 - % Passing Reading stayed 86 
 
-## How is the school summary affected?
+## 2. How is the school summary affected?
 The analysis was run for each school. In the second analysis, only 10th to 12th grade data was considered for Thomas High School. 
 - The overall passing percentage for Thomas High School for math and reading assessments fell from 90.95% to 90.63%
 - The average math score decreased from 83.42 to 83.35
@@ -55,15 +54,21 @@ The analysis was run for each school. In the second analysis, only 10th to 12th 
 - % Passing Math fell from 93.27% to 92.19% 
 - % Passing Reading stayed fell from 97.3% to 97.02%
 
+## 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+Despite replacing the ninth grade data, Thomas High School remained the second high performing school. 
+
+![**Top 5 Schools Before]()
+
+![**Top 5 Schools After]()
+
+## 4. How are the scores affected by grades?
+
+## 5. How are the scores affected by school spending?
+
+## 6. How are the scores affected by school size?
+
+## 7. How are the scores affected by school type?
 
 
-## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-Despite the changes, Thomas High School remained the second high performing school. 
-
-## How does replacing the ninth-grade scores affect the following:
-### Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+# Summary: 
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
