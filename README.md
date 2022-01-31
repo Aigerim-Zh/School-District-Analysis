@@ -41,24 +41,27 @@ Since there was a potential academic dishonesty detected for ninth grades at Tho
 In the Resources folder of this repository, you can find images for before and after tables. 
 
 After replacing the possibly altered data with NaN values, the metrics did not changed significantly for the whole district:
-- The overall passing percentage for the whole district stayed 65%
-- The Average math score decreased from 79 to 78.9
-- The Average reading score stayed 81.9
+- The overall passing percentage for the whole district stayed 65% (as a whole number)
+- The average math score decreased from 79 to 78.9
+- The average reading score stayed 81.9
 - % Passing Math stayed 75%
 - % Passing Reading stayed 86 
 
 ## How is the school summary affected?
+The analysis was run for each school. In the second analysis, only 10th to 12th grade data was considered for Thomas High School. 
 - The overall passing percentage for Thomas High School for math and reading assessments fell from 90.95% to 90.63%
-- The Average math score decreased from 83.42 to 78.9
-- The Average reading score stayed 81.9
-- % Passing Math stayed 75%
-- % Passing Reading stayed 86 
+- The average math score decreased from 83.42 to 83.35
+- The average reading score increased from 83.85 to 83.9
+- % Passing Math fell from 93.27% to 92.19% 
+- % Passing Reading stayed fell from 97.3% to 97.02%
 
-However, Thomas High School remained the second high performing school. 
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
+
+## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+Despite the changes, Thomas High School remained the second high performing school. 
+
+## How does replacing the ninth-grade scores affect the following:
+### Math and reading scores by grade
 Scores by school spending
 Scores by school size
 Scores by school type
