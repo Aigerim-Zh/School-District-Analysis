@@ -25,8 +25,8 @@ Please also note that this analysis was conducted twice due to potential academi
 ## Resources 
 
 ### Dataset
-- In the ("schools_complete.csv")[], there are 15 observations and 5 variables corresponding to the School ID, school_name, type, size, and budget columns. This dataset came in cleaned and has no misspellings, case changes, duplicates, or special characters. 
-- In the ("students_complete.csv")[], there are 39,170 observations and 7 variables corresponding to the "Student ID", "student_name", "gender", "grade", "school_name", "reading_score", "math_score". Unlike the schools_complete.csv file, this file requires some cleaning to do. For instance, in the student_name column, there is an entry "Dr. Richard Scott".
+- In the ["schools_complete.csv"](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/Resources/schools_complete.csv), there are 15 observations and 5 variables corresponding to the School ID, school_name, type, size, and budget columns. This dataset came in cleaned and has no misspellings, case changes, duplicates, or special characters. 
+- In the ["students_complete.csv"](https://github.com/Aigerim-Zh/School-District-Analysis/blob/main/Resources/schools_complete.csv), there are 39,170 observations and 7 variables corresponding to the "Student ID", "student_name", "gender", "grade", "school_name", "reading_score", "math_score". Unlike the schools_complete.csv file, this file requires some cleaning to do. For instance, in the student_name column, there is an entry "Dr. Richard Scott".
 - The above datasets are merged into one for the analysis. 
 - Software: Python 3.7.6 through Jupyter Notebook. 
 
@@ -62,6 +62,8 @@ Despite replacing the ninth grade data, Thomas High School remained the second h
 - The average math and reading scores stayed roughly the same for each grade level before and after. 
 
 ## 5. How are the scores affected by school spending?
+- The scores also stayed roughly the same by school spending ranges except that for the $630-644 spending range the % Overall Passing decreased from 62.86% to 62.78%. 
+- There is a very suprising trend observed, both before and after, of the % Overal Passing decreasing as the spending per student increases. It is obvious, that there are other explanotory factors to higher passing rates. 
 
 ## 6. How are the scores affected by school size?
 
