@@ -66,9 +66,16 @@ Despite replacing the ninth grade data, Thomas High School remained the second h
 - There is a very suprising trend observed, both before and after, of the % Overal Passing decreasing as the spending per student increases. It is obvious, that there are other explanotory factors to higher passing rates. 
 
 ## 6. How are the scores affected by school size?
+The metrics by school size were slightly affected for the medium-sized schools:
+- The overall passing percentage for math and reading assessments fell from 90.62% to 90.55%
+- The average math score decreased from 83.37 to 83.36
+- The average reading score increased from 83.86 to 83.87
+- % Passing Math fell from 93.6% to 92.58% 
+- % Passing Reading stayed fell from 96.8% to 96.7%
 
 ## 7. How are the scores affected by school type?
-
+The only type of school that was slightly affected is the Charter type schools since Thomas High School is a Charter type school. 
 
 # Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In general, the analysis results were not affected significantly. The small changes that happened included the following:
+1. District Summary - 
